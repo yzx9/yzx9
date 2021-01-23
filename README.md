@@ -1,4 +1,4 @@
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nsznsznjsz&bg_color=30,00d2ff,3a7bd5&title_color=5bffff&text_color=b2ffff&show_icons=true&icon_color=b2ffff)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nsznsznjsz&bg_color=30,373b44,4286f4&title_color=5bffff&text_color=b2ffff&show_icons=true&icon_color=b2ffff)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **nsznsznjsz/nsznsznjsz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

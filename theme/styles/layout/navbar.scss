@@ -1,0 +1,66 @@
+@import "../_variables";
+
+.navbar {
+  position: fixed;
+  top: 0;
+
+  height: $navbar-height;
+  background: $color-white;
+  z-index: $index-top;
+  overflow: hidden;
+
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: $navbar-border solid $color-primary;
+  transition: $all-transition;
+
+  box-shadow: $box-shadow-base;
+
+  &--hide:not(:hover) {
+    top: -$navbar-height + $navbar-border;
+    border-bottom: $navbar-border solid $color-primary;
+  }
+
+  &--transparent {
+    background: transparent;
+    border-bottom: transparent;
+  }
+
+  &__list {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 2rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    margin: 0 2rem;
+    padding: 0.5rem 1rem;
+    min-width: 4rem;
+    border-bottom: $navbar-border solid transparent;
+
+    transition: $border-transition-base;
+
+    a {
+      color: $color-primary-light-5;
+      transition: $color-transition-base;
+    }
+
+    &:hover,
+    &--active {
+      cursor: pointer;
+      border-bottom: $navbar-border solid $color-primary;
+
+      a {
+        color: $color-primary;
+      }
+    }
+  }
+}
